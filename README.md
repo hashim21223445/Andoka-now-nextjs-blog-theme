@@ -86,7 +86,7 @@ If setting an environment variable isn't your cup of tea, the defaults can be ch
 
 ## Adding new posts
 
-All posts are stored in `/posts` directory. To make a new post, create a new file with the [`.mdx` extension](https://mdxjs.com/).
+All posts are stored in the `/posts` directory. To make a new post, create a new file with the [`.mdx` extension](https://mdxjs.com/).
 
 Since the posts are written in `MDX` format you can pass props and components. That means you can use [React components](https://reactjs.org/docs/components-and-props.html) inside your posts to make them more interactive. Learn more about how to do so in the [MDX docs on content](https://mdxjs.com/docs/using-mdx/#components).
 
@@ -124,7 +124,7 @@ For our testing, we use [Cypress](https://www.cypress.io/) for end-to-end testin
 -    enable = false
 ```
 
-If you’d like to remove the `netlify-plugin-cypress` build plugin entirely, you’d need to delete the entire block above instead. And then make sure sure to remove the package from the dependencies using:
+If you’d like to remove the `netlify-plugin-cypress` build plugin entirely, you’d need to delete the entire block above instead. And then make sure to remove the package from the dependencies using:
 
 ```bash
 npm uninstall -D netlify-plugin-cypress
